@@ -34,7 +34,7 @@ if upload_file is not None:
     image.save(file_path)
     
     # Localhost URL banana
-    file_url = f"http://localhost:8501/{file_path}"
+    file_url = f"https://uuploaderr.streamlit.app/{file_path}"
     
     # Database mein record insert karna
     new_image = Image(filename=filename, url=file_url)
